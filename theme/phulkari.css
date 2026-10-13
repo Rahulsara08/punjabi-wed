@@ -1,0 +1,42 @@
+/*
+  Phulkari theme tokens (PRD §4.1, §4.3).
+  Switching `theme` in content/wedding.ts swaps this file for another token set;
+  layout and logic never change.
+*/
+:root {
+  /* Palette */
+  --c-bg: #f7f2e8; /* Khaddar Ivory */
+  --c-surface: #fcf9f3; /* Malmal White */
+  --c-ink: #2e2622; /* Charcoal Brown */
+  --c-maroon: #7a1f1f; /* Phulkari Maroon */
+  --c-gold: #c08a2e; /* Pat Silk Gold (decorative only) */
+  --c-gold-text: #8a5e1c; /* Deep Gold (text-safe) */
+  --c-sarson: #f3e3b5; /* Sarson Cream */
+  --c-gulabi: #efd9d3; /* Gulabi Dust */
+  --c-wood: #b48a5a; /* clothesline clips */
+
+  /* Same palette as RGB channels, so Tailwind can build opacity variants (bg-gold/70). */
+  --c-bg-rgb: 247 242 232;
+  --c-surface-rgb: 252 249 243;
+  --c-ink-rgb: 46 38 34;
+  --c-maroon-rgb: 122 31 31;
+  --c-gold-rgb: 192 138 46;
+  --c-gold-text-rgb: 138 94 28;
+  --c-sarson-rgb: 243 227 181;
+  --c-gulabi-rgb: 239 217 211;
+
+  /* Stitch motif */
+  --stitch-dash: 6;
+  --stitch-gap: 4;
+  --stitch-width: 1.5px;
+
+  /* Spacing */
+  --section-pad: 72px;
+  --paper-shadow: 0 2px 14px rgba(46, 38, 34, 0.08);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section-pad: 120px;
+  }
+}

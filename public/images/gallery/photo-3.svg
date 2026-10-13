@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+<defs><pattern id="weave" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 3H6M3 0V6" stroke="#2E2622" stroke-opacity="0.045" stroke-width="1"/></pattern></defs>
+<rect width="100%" height="100%" fill="#F3E3B5"/>
+<rect width="100%" height="100%" fill="url(#weave)"/>
+<path d="M400.0 414.0 L423.9 492.2 L496.2 453.8 L457.8 526.1 L536.0 550.0 L457.8 573.9 L496.2 646.2 L423.9 607.8 L400.0 686.0 L376.1 607.8 L303.8 646.2 L342.2 573.9 L264.0 550.0 L342.2 526.1 L303.8 453.8 L376.1 492.2 Z" fill="none" stroke="#7A1F1F" stroke-width="4.5" stroke-dasharray="17.0 11.3" stroke-linecap="round"/>
+<path d="M400.0 498.3 L417.3 532.7 L451.7 550.0 L417.3 567.3 L400.0 601.7 L382.7 567.3 L348.3 550.0 L382.7 532.7 Z" fill="none" stroke="#C08A2E" stroke-width="3.4" stroke-dasharray="13.6 9.7" stroke-linecap="round"/>
+<text x="400" y="788" text-anchor="middle" font-family="Georgia, serif" font-size="27" fill="#8A5E1C" letter-spacing="2">Photo · 3</text>
+</svg>
