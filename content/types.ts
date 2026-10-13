@@ -92,6 +92,8 @@ export interface GalleryImage {
   height: number;
 }
 
+export type ImageAsset = GalleryImage;
+
 export interface Venue {
   id: string;
   name: string;
@@ -141,7 +143,8 @@ export interface WeddingContent {
   mainCeremonyDateTime: string;
   city: string;
   tagline: string;
-  heroImage: { src: string; alt: string; width: number; height: number };
+  /** Hero art, both with transparent backgrounds: a garland pinned across the top and the couple behind the names. */
+  hero: { top: ImageAsset; couple: ImageAsset };
   invitation: {
     invocation: Record<Ceremony, { text: string; lang: 'pa' | 'hi' }>;
     blessingLine: Record<Ceremony, string>;

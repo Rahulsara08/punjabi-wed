@@ -140,15 +140,7 @@ export default function Events() {
 
   return (
     <section id="events" className="section">
-      <SectionHeading
-        accent={wedding.labels.events}
-        title="Events & Rituals"
-        intro={
-          guest.name
-            ? `${guest.name}, here is everything from the Mehndi to the Doli, with a line on what happens at each.`
-            : 'Everything from the Mehndi to the Doli, with a line on what happens at each.'
-        }
-      />
+      <SectionHeading accent={wedding.labels.events} title="Events & Rituals" />
 
       <div ref={containerRef} className="relative mx-auto max-w-[960px] px-4">
         {pathD && geo && (

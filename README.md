@@ -61,10 +61,13 @@ an optional approval switch (`blessings.requireApproval`).
 
 ## Replace the placeholder art
 
-`public/images` holds generated SVG placeholders. Replace them with real AVIF/WebP photos (hero
-< 250 KB, story photos cropped 4:5, gallery any ratio) and update the `src`/`width`/`height` in
-`content/wedding.ts`. For the WhatsApp preview, add a 1200×630 `public/og.png` (couple names + date
-on ivory with a single bagh star) — the metadata already points to it.
+The hero uses two pieces of real artwork with transparent backgrounds: `public/images/hero-floral.webp`
+(the garland pinned across the top) and `public/images/hero-couple.webp` (the couple behind the names).
+Swap them for another couple by replacing the files (keep the alpha channel) and updating `hero` in
+`content/wedding.ts`. The story and gallery photos in `public/images` are generated SVG placeholders:
+replace them with real AVIF/WebP photos (story photos cropped 4:5, gallery any ratio) and update the
+`src`/`width`/`height` in `content/wedding.ts`. For the WhatsApp preview, add a 1200×630 `public/og.png`
+(couple names + date on ivory with a single bagh star) — the metadata already points to it.
 
 ## Structure
 

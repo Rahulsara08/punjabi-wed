@@ -18,11 +18,19 @@ export const wedding: WeddingContent = {
   city: 'Amritsar',
   tagline: 'Two hearts, one thread.',
 
-  heroImage: {
-    src: '/images/hero-sarson.svg',
-    alt: 'A mustard field at dawn, painted softly in watercolour',
-    width: 1600,
-    height: 1000,
+  hero: {
+    top: {
+      src: '/images/hero-floral.webp',
+      alt: '',
+      width: 1672,
+      height: 598,
+    },
+    couple: {
+      src: '/images/hero-couple.webp',
+      alt: 'Illustration of the couple from behind: the groom in a cream sherwani and pink safa, the bride in an embroidered pink lehenga',
+      width: 969,
+      height: 1473,
+    },
   },
 
   invitation: {
